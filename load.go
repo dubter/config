@@ -9,7 +9,7 @@ import (
 )
 
 type YamlConfig struct {
-	Port         int           `yaml:"port"`
+	Port         string        `yaml:"port"`
 	Host         string        `yaml:"host"`
 	ReadTimeout  time.Duration `yaml:"read_timeout"`
 	WriteTimeout time.Duration `yaml:"write_timeout"`
